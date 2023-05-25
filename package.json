@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "tailwindcss --input C:/Users/Joe/Dev/Tailwind/Django-Tailwind/src/Portfolio/static/tailwind/tailwind-input.css --output C:/Users/Joe/Dev/Tailwind/Django-Tailwind/src/Portfolio/static/outputcss/tailwind-output.css --watch "
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

@@ -1,0 +1,4 @@
+#files and folders to be ignored
+local-cdn
+node_modules
+db.sqlite3
