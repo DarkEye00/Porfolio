@@ -16,8 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from . import views
+#Adding images to our project is simillar to static files 
+#but in this case we import as below then write the code that is below the paths 
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('', views.home_view, name="base"),
     path('admin/', admin.site.urls),
 ]
+#this initializes how django will access our image urls
+urlpatterns += staticfiles_urlpatterns()
